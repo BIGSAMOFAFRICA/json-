@@ -1,8 +1,43 @@
-# React + Vite
+# JSONPlaceholder Posts App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built with React and Bootstrap that fetches and displays data from the JSONPlaceholder API. This project features search/filter functionality, pagination, and performance optimizations.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies](#technologies)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [Future Improvements](#future-improvements)
+- [License](#license)
+
+## Features
+
+- **Data Fetching:** Retrieves posts data from [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+- **Responsive UI:** Uses Bootstrap’s grid system for a mobile-friendly layout.
+- **Search/Filter:** Allows users to filter posts by title.
+- **Pagination:** Implements pagination to manage large datasets.
+- **Performance Enhancements:** Includes debouncing for the search input and memoization for filtered data.
+- **Accessibility:** Incorporates ARIA labels and semantic HTML for better accessibility.
+
+## Technologies
+
+- **React** – Front-end library for building the user interface.
+- **Axios** – For making API requests.
+- **Bootstrap** – For styling and responsiveness.
+- **Lodash.debounce** – For debouncing search input.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm (v6 or higher)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/json-.git
+   cd json
