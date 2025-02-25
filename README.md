@@ -39,5 +39,5 @@ A responsive web application built with React and Bootstrap that fetches and dis
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/json-.git
+   git clone https://github.com/BIGSAMOFAFRICA/json-.git
    cd json
